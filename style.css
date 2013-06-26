@@ -1,0 +1,276 @@
+html {
+}
+
+body {
+	font-family: "HelveticaNeue", "Helvetica", Arial, sans-serif;
+	font-size: x-small;
+	font-variant:normal;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1.5em;
+	color: #303030;
+    background: #fff url('http://cv.inefable.net/images/debut_light.png') repeat top left;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.accesible {
+	display:none;
+}
+
+a { color: #076198; }
+a:hover { color: #333;}
+a img { border: none;}
+
+/* end */
+
+.wrapper {
+  width: 90em;
+  margin: 0 auto;
+  height: 1%;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 0 30px;
+}
+
+.separata {
+	clear:both;
+}
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display:inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
+
+/********************************************/
+
+#header {
+	background-color: #303030;
+	padding: 1.5em 0em 1.5em 0em;
+}
+
+#header .wrapper {
+    background-color: #303030;
+}
+
+#header .download {
+	float: right;
+}
+
+#header .download a {
+	color: #fff;
+	font-size: 1.6em;
+}
+
+h1 {
+	font-size: 4.4em;
+	line-height: 1em;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-size: 2.4em;
+	line-height: 1em;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	border-bottom: 1px solid #303030;
+}
+
+.content {
+    margin: 30px 0px 40px 0px;
+}
+
+.content .wrapper {
+    -webkit-box-shadow: 0px 0px 5px rgba(150, 150, 150, 0.75);
+    -moz-box-shadow:    0px 0px 5px rgba(150, 150, 150, 0.75);
+    box-shadow:         0px 0px 5px rgba(150, 150, 150, 0.75);
+}
+
+.contact {
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.contact ul {
+	float: left;
+	list-style: none;
+	margin-right: 2em;
+}
+
+.contact ul li {
+	font-size: 1.6em;
+	padding: 1px 24px 0px 0px;
+    background: url('icons-sprite.png') no-repeat top left; 
+    height: 24px;
+    width: 400px;
+    margin-bottom: 10px;
+    float: left;
+    
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: #5F7FA8;
+}
+
+.contact ul li a:hover {
+  color: #303030;
+}
+
+.contact ul li span, .contact ul li a { 
+    width: 300px;
+    display: block;
+    margin-left: 35px;
+    margin-top: 4px;
+}
+
+.contact ul li.telephone    { background-position: 0px 0px; }
+.contact ul li.mail         { background-position: 0px -25px; }
+.contact ul li.skype        { background-position: 0px -50px; }
+.contact ul li.linkedin     { background-position: 0px -75px; }
+.contact ul li.delicious    { background-position: 0px -100px; }
+.contact ul li.github       { background-position: 0px -125px; }
+.contact ul li.blog         { background-position: 0px -150px; }
+.contact ul li.twitter      { background-position: 0px -175px; }
+
+.section {
+	overflow: hidden;
+}
+
+.period {
+	overflow: hidden;
+	margin-bottom: 2em;
+}
+
+.period .date {
+	float: left;
+	margin-right: 2em;
+	width: 14em;
+	color: #808080;
+	font-size: 1.8em;
+	line-height: 1.3em;
+}
+
+.period .description {
+	float: left;
+	width: 61em;
+	margin-bottom: 0.5em;
+}
+
+.period .description .company, .period .description .institution {
+	font-size: 1.8em;	
+	line-height: 1.3em;
+	margin-bottom: 0.2em;
+}
+
+.period .description .company, .period .description .institution {
+ font-family: "HelveticaNeue-Light", "HelveticaNeue", "Helvetica";
+}
+
+.period .description .job, .period .description .studies {
+	font-weight: bold;
+	font-size: 1.8em;	
+	line-height: 1.3em;
+	margin-bottom: 0.3em;
+}
+
+.period .description .job_description {
+	font-size: 1.6em;
+	line-height: 1.3em;
+    margin-bottom: 10px;
+}
+
+.period .description ul {
+    list-style: none;
+    margin-bottom: 5px;
+    overflow: hidden;
+    clear: both;
+}
+
+.period .description ul.projects li a,
+.period .description ul.technologies li {
+    text-decoration: none;
+    font-size: 13px;
+    float: left;
+    padding: 4px 8px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.period .description ul.projects li a {
+    background-color: #7F99B9;
+    color:#fff;
+}
+
+.period .description ul.projects li a:hover {
+    background-color: #8FA5C2;
+    color:#fff;
+}
+
+.period .description ul.technologies li {
+    background-color: #eee;
+    color:#333;
+}
+
+
+.period .description ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.section_half {
+	width: 42em;
+	float: left;
+	margin-right: 5em;
+	margin-bottom:5em;
+}
+
+.section_half.last {
+	width: 42em;
+	float: left;
+	margin-right: 0;
+}
+
+.language_block {
+	overflow: hidden;
+	margin-bottom: 2em;
+}
+
+.language_block .language {
+	float: left;
+	width: 6em;
+	margin-right: 1em;
+	font-size: 1.6em;
+	line-height: 1.3em;
+}
+
+.language_block .level {
+	float: left;
+	width: 17em;
+	font-size: 1.6em;
+	line-height: 1.5em;
+}
+
+.section_half ul {
+	list-style: none;
+}
+
+.section_half ul li {
+	font-size: 1.6em;
+	line-height: 1.4em;
+}
