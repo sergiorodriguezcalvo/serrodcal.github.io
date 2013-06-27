@@ -172,6 +172,13 @@ h2 {
 	margin-bottom: 0.5em;
 }
 
+.about{
+	font-size: 1.6em;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+	font-family: "HelveticaNeue-Light", "HelveticaNeue", "Helvetica";
+}
+
 .period .description .company, .period .description .institution {
 	font-size: 1.8em;	
 	line-height: 1.3em;
