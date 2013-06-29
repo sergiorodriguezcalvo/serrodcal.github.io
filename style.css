@@ -21,6 +21,15 @@ body {
 	display:none;
 }
 
+img {
+  margin: 0 auto;
+  height: 1%;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 0 0%;
+}
+
 a { color: #076198; }
 a:hover { color: #333;}
 a img { border: none;}
