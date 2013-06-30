@@ -1,5 +1,5 @@
 #Trabajo realizado por: Rodriguez Calvo, Sergio.
-#DNI: 28836487F
+#DNI: ******
 #Curso y grupo: Grado en Ingenieria del Software, 3º Grupo 1
 #Asignatura: Inteligencia Artificial
 
